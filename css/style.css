@@ -1301,3 +1301,9 @@ footer .credits {
 footer .credits a {
   color: #fff;
 }
+
+/* NEW STYLES */
+
+.hidden{
+  display: none !important;
+}
