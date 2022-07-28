@@ -644,16 +644,19 @@
         {
             $("#btnProf").addClass('active'); 
             $('#btnPers').removeClass('active');
-            $('#divProfessional').removeClass('hidden');
-            $('#divPersonal').addClass('hidden');
+            $(".about-info").removeClass("fade-out");
+            $(".about-info").addClass("fade-in");
+            // $('#divProfessional').removeClass('hidden');
+            // $('#divPersonal').addClass('hidden');
         }
 
         function PersonalTabClick()
         {
             $("#btnPers").addClass('active'); 
             $('#btnProf').removeClass('active');
-            $('#divProfessional').addClass('hidden');
-            $('#divPersonal').removeClass('hidden');
+            $(".about-info").addClass("fade-out");
+            // $('#divProfessional').addClass('hidden');
+            // $('#divPersonal').removeClass('hidden');
         }
 
         if (window.self == window.top) 
