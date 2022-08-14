@@ -1,0 +1,112 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title> Ram - Project - Impulse </title>
+    <meta name="robots" content="noindex, nofollow">
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta content="" name="keywords">
+    <link href="images/favicon.png" rel="icon">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script> -->
+
+    <style>
+        .project-title{
+            font-size: 2.5rem;
+            color: white;
+        }
+
+        .project-description{
+            font-size: 1.5rem;
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header id="header" class="fixed-top" style="background-color: black;">
+        <div class="container d-flex align-items-center justify-content-between">
+            <h1 class="logo"><a href="index.html" style="text-decoration: none;">Ram</a></h1>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="index.html#projects">Back to Projects</a></li>
+            </nav>
+        </div>
+    </header>
+    <div id="hero" class="hero route bg-image" style="background-image: url(images/hero-bg.jpg)">
+        <div class="overlay-itro"></div>
+        <div class="hero-content display-table">
+            <div class="table-cell">
+                <div class="container">
+                    <h1 class="project-title mb-4">PROJECT NAME : IMPULSE (HR application)  </h1>
+                    <p class="project-description">
+                        <span class="typeds">Basically an HR application with all the HR related functionalities
+                            from attendance, Leaves, Salary calculations, Complex incentive
+                            calculations, and Pay slip generation to resignation modules.</span>
+
+                        <br/><br/>
+                        <span class="typeds"><b>Technologies used</b> : .Net Frame work with MVC, AngularJS, Ajax, Bootstrap, MSSQL</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/purecounter.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/glightbox.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/validate.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+
+        function ProfessionalTabClick() {
+            $("#btnProf").addClass('actives');
+            $('#btnPers').removeClass('actives');
+            //$(".about-info").removeClass("fade-out");
+            //$(".about-info").addClass("fade-in");
+            $('#divProfessional').removeClass('hidden');
+            $('#divPersonal').addClass('hidden');
+        }
+
+        function PersonalTabClick() {
+            $("#btnPers").addClass('actives');
+            $('#btnProf').removeClass('actives');
+            //$(".about-info").addClass("fade-out");
+            $('#divProfessional').addClass('hidden');
+            $('#divPersonal').removeClass('hidden');
+        }
+
+        if (window.self == window.top) {
+            window.dataLayer = window.dataLayer || []; function gtag() {
+                dataLayer.push(arguments);
+            }
+
+            gtag('js', new Date()); gtag('config', 'G-P7JSYB1CSP');
+        }
+    </script>
+
+</body>
+
+</html>
